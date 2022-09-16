@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+hr{
+    width: 30px;
+    height: 2px;
+    background: #fb774b;
+}
+
+.stars i{
+    font-size: 0.8rem;
+    color: goldenrod;
+
+}
+
+.stars{
+    padding: 10px 0;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+h6{
+    color: #D8D8D8;
+}
+
+
+.navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+padding: 0 20px;
+color: black;
+transition: 0.3s ease;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link .active,
+.navbar i .active
+{
+    color: coral;
+}
+
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+
+#about span{
+color: coral;
+}
+
+#about{
+    background-image: url('https://media.allure.com/photos/62278fc6b4688fdf438b70da/master/pass/0310-marchskin.gif');
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/**************About 2 Section **************************/
+
+#about-2 span{
+  color: coral;
+  }
+
+ #about-2 button{
+  font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color:#1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+ }
+
+
+ #about-2 button:hover{
+  background-color: #3a3833;
+}
+
+
+#about-3 span{
+  color: coral;
+  }
+
+ #about-3 button{
+  font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color:#1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+ }
+
+
+ #about-3 button:hover{
+  background-color: #3a3833;
+}
+
+
+#about-4 span{
+  color: coral;
+  }
+
+ #about-4 button{
+  font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color:#1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+ }
+
+
+ #about-4 button:hover{
+  background-color: #3a3833;
+}
+
+
+
+
+#about-5 span{
+  color: coral;
+  }
+
+ #about-5 button{
+  font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color:#1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+ }
+
+
+ #about-5 button:hover{
+  background-color: #3a3833;
+}
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color:#1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: #3a3833;
+}
+
+
+/****Mobile Nav******/
+
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+#bars{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: black;
+}
+
+#bars:hover,
+#bars .active{
+    color: #fff;
+}
+
+
+/***********New**************************/
+
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+#new .one .details{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -390px;
+    left: 22px;
+    transition: 0.3s ease;
+}
+
+
+#new .one .details button{
+display: inline-block;
+font-size: 14px;
+font-weight: 500;
+color: #2a2a2a;
+background: none;
+text-transform: uppercase;
+border-bottom: 1px solid #2a2a2a;
+padding: 2.5px;
+transform: translateY(70px);
+transition: 0.3s ease;
+}
+
+
+#new .one .details button:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+/**********Product Section Started*****************/
+
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img{
+    transition: .3s all;
+}
+
+.product:hover img{
+    opacity: 0.7;
+}
+
+.product .buy-btn{
+
+    background: #fb774b;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+
+.product:hover .buy-btn{
+
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/*********************Banner section*******************/
+
+#banner{
+ 
+    background-image: url('https://c.tenor.com/YVDj6YVfKLwAAAAC/shopping-woman.gif');
+
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#banner h4{
+    color: #D8D8D8;
+}
+
+#banner h1{
+    color: #fff;
+}
+
+#banner button{
+    background-color: #fb774b;
+}
+
+
+/************footer section started********************/
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
+
+
+/*************************Media Query********************************/
+
+@media only screen and (max-width:991px){
+    body>nav>div>button:hover,
+    body>nav>div>button:focus{
+        background-color: #fb774b;
+    }
+
+    body>nav>div>button:hover #bars,
+    body>nav>div>button:focus #bars{
+        
+        color: #fff;
+    }
+
+    #navbarSupportedContent > ul{
+
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    #navbarSupportedContent >ul >li:nth-child(n) > a{
+     
+        padding: 10px 0;
+    }
+}
